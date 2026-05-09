@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Paramotor Pilot — Support</title>
+<meta name="description" content="Support page for the Paramotor Pilot iOS app. Contact, FAQ, troubleshooting, and how to request help." />
+<style>
+  :root {
+    --bg: #0b0d12;
+    --card: #14171f;
+    --text: #e6e8ee;
+    --muted: #9aa3b2;
+    --accent: #4cc2ff;
+    --border: #1e2330;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.55;
+  }
+  header {
+    padding: 32px 20px 16px;
+    text-align: center;
+    border-bottom: 1px solid var(--border);
+  }
+  header h1 { margin: 0 0 6px; font-size: 28px; }
+  header p { margin: 0; color: var(--muted); font-size: 14px; }
+  main {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 28px 20px 60px;
+  }
+  section {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 20px 22px;
+    margin-bottom: 18px;
+  }
+  h2 { margin-top: 0; font-size: 20px; color: var(--accent); }
+  h3 { margin: 18px 0 6px; font-size: 16px; }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  ul { padding-left: 20px; }
+  li { margin-bottom: 6px; }
+  code {
+    background: #1c2030;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-size: 13px;
+  }
+  .contact-btn {
+    display: inline-block;
+    background: var(--accent);
+    color: #001b2b;
+    padding: 10px 18px;
+    border-radius: 8px;
+    font-weight: 600;
+    margin-top: 8px;
+  }
+  .contact-btn:hover { text-decoration: none; opacity: 0.9; }
+  .lang { color: var(--muted); font-size: 13px; }
+  footer {
+    text-align: center;
+    color: var(--muted);
+    font-size: 12px;
+    padding: 24px 20px 40px;
+  }
+  .badge {
+    display: inline-block;
+    font-size: 11px;
+    padding: 2px 8px;
+    border-radius: 999px;
+    background: #1c2030;
+    color: var(--muted);
+    margin-left: 6px;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Paramotor Pilot — Support</h1>
+  <p>Flight instruments &amp; safety tools for paramotor pilots</p>
+</header>
+
+<main>
+
+  <section>
+    <h2>Contact / Contato</h2>
+    <p><span class="lang">EN —</span> Need help, found a bug, or have a feature request? Send an email and we'll reply within 2 business days.</p>
+    <p><span class="lang">PT —</span> Precisa de ajuda, encontrou um bug ou quer sugerir uma funcionalidade? Envie um e-mail e responderemos em até 2 dias úteis.</p>
+    <p>
+      <a class="contact-btn" href="mailto:fabricio.soares@gmail.com?subject=Paramotor%20Pilot%20Support">
+        fabricio.soares@gmail.com
+      </a>
+    </p>
+    <p style="font-size: 13px; color: var(--muted);">
+      When reporting an issue, please include: iOS version, iPhone/iPad model, app version (Settings → About), and a description of the problem.
+    </p>
+  </section>
+
+  <section>
+    <h2>Frequently Asked Questions</h2>
+
+    <h3>The compass / wind direction looks wrong. What do I do?</h3>
+    <p>Calibrate the iPhone's magnetometer by moving the device in a figure-8 pattern away from metal objects and electronics. Avoid using the app next to the engine block or large metal frames during ground checks.</p>
+
+    <h3>Why does the app need background location?</h3>
+    <p>Background location is required to keep recording your flight track, calculate the distance back to your takeoff point, and trigger safety alerts (low fuel, airspace, return-to-home) even if the screen is off or you switch apps mid-flight. Location data stays on your device and is never sent to any server.</p>
+
+    <h3>Why does the app need Motion &amp; Fitness access?</h3>
+    <p>The app uses the iPhone's compass and accelerometer to show your real-time heading on the HUD, draw the relative wind arrow on the panel, and stabilize the artificial horizon. <strong>Example:</strong> when your paramotor turns to a heading of 270°, the compass widget shows "W" and the wind arrow rotates to indicate the wind direction <em>relative to your new heading</em>. No fitness, step, or health data is collected.</p>
+
+    <h3>How do I export a flight track (IGC / GPX / KML)?</h3>
+    <p>Open the Flight History screen → tap a flight → tap the share icon → choose IGC, GPX or KML. The file can be sent via AirDrop, Mail, or saved to Files / iCloud Drive.</p>
+
+    <h3>The variometer beep is too loud / too quiet.</h3>
+    <p>Adjust the device media volume during flight, or toggle the speaker icon on the main screen to mute. Beep thresholds (climb / sink) can be changed in Settings → Audio.</p>
+
+    <h3>Live traffic (ADS-B) is not showing aircraft.</h3>
+    <p>Live traffic depends on the public ADS-B network coverage in your area and an active internet connection (mobile data). In remote areas without coverage, no traffic will appear — this is expected behavior, not a bug.</p>
+
+    <h3>How do I delete my data?</h3>
+    <p>All flight logs, equipment profiles, and emergency contacts are stored locally on your device. To delete everything, uninstall the app from iOS, or open Settings inside the app and tap "Reset all data". Since no data leaves the device, no server-side deletion request is needed.</p>
+
+    <h3>The SOS / crash detection triggered by mistake.</h3>
+    <p>You have a configurable countdown (default 30 s) to cancel a false alarm before any emergency contact is notified. Adjust sensitivity and contacts in Settings → Emergency.</p>
+  </section>
+
+  <section>
+    <h2>Useful Links</h2>
+    <ul>
+      <li><a href="https://fclsoares.github.io/paramotor-privacy/">Privacy Policy</a></li>
+      <li><a href="https://apps.apple.com/app/paramotor-pilot/">Paramotor Pilot on the App Store</a></li>
+      <li>Email support: <a href="mailto:fabricio.soares@gmail.com">fabricio.soares@gmail.com</a></li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Safety Disclaimer</h2>
+    <p>Paramotor Pilot is an <strong>auxiliary instrument</strong>. It does not replace certified aviation equipment, pilot training, or sound aeronautical decision-making. Always follow your local civil aviation authority rules and never rely solely on this app for navigation, airspace clearance, or emergency response.</p>
+  </section>
+
+</main>
+
+<footer>
+  © 2026 Paramotor Pilot — Made by Fabricio Soares
+</footer>
+
+</body>
+</html>
