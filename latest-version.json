@@ -1,0 +1,12 @@
+{
+  "_help": "Atualize 'latestVersion' a cada release. Para forçar todos a atualizarem (segurança), aumente 'minSupportedVersion' até a versão mínima aceitável.",
+  "latestVersion": "1.1.6",
+  "minSupportedVersion": "1.0.0",
+  "releaseNotes": "• Correção do zoom infinito ao ativar 3D no mapa\n• Melhorias gerais de estabilidade",
+  "ios": {
+    "storeUrl": "https://apps.apple.com/app/id6764019387"
+  },
+  "android": {
+    "storeUrl": "https://play.google.com/store/apps/details?id=com.fclsoares.paramotor.pilot"
+  }
+}
