@@ -1,8 +1,8 @@
 {
   "_help": "Atualize 'latestVersion' a cada release. Para forçar todos a atualizarem (segurança), aumente 'minSupportedVersion' até a versão mínima aceitável.",
-  "latestVersion": "1.1.6",
+  "latestVersion": "1.1.8",
   "minSupportedVersion": "1.0.0",
-  "releaseNotes": "• Correção do zoom infinito ao ativar 3D no mapa\n• Melhorias gerais de estabilidade",
+  "releaseNotes": "• Importação de logbook do Gaggle (.xlsx) — traga todos os seus voos antigos de uma vez\r\n• Histórico e Relatórios mostram nome da cidade em vez de coordenadas, atualizado em tempo real\r\n• Cache de importação limpo automaticamente — sem lixo no aparelho\r\n• AJUDA atualizada e melhorias gerais de estabilidade",
   "ios": {
     "storeUrl": "https://apps.apple.com/app/id6764019387"
   },
