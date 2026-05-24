@@ -1,8 +1,8 @@
 {
   "_help": "Atualize 'latestVersion' a cada release. Para forçar todos a atualizarem (segurança), aumente 'minSupportedVersion' até a versão mínima aceitável.",
-  "latestVersion": "1.1.8",
+  "latestVersion": "1.1.14",
   "minSupportedVersion": "1.0.0",
-  "releaseNotes": "• Importação de logbook do Gaggle (.xlsx) — traga todos os seus voos antigos de uma vez\r\n• Histórico e Relatórios mostram nome da cidade em vez de coordenadas, atualizado em tempo real\r\n• Cache de importação limpo automaticamente — sem lixo no aparelho\r\n• AJUDA atualizada e melhorias gerais de estabilidade",
+  "releaseNotes": "• Correções críticas no cálculo e exibição do vento (alinhamento com o rumo real, rejeição de valores inválidos)\r\n• Melhor detecção da fase de pouso para estatísticas de voo mais precisas\r\n• Bússola e horizonte mais estáveis em manobras\r\n• Importação Gaggle agora calcula distância, duração e consumo de combustível corretamente\r\n• Reimportação em lote de voos do Gaggle com confirmação\r\n• Correção de marcadores e partículas de vento cortados no Android\r\n• Tela cheia respeita a área segura (notch / barra de gestos) no Android\r\n• Mantém a tela ligada de forma mais confiável durante o voo\r\n• Resolução do local de pouso exibida no histórico de voos\r\n• Modal de \"nova versão disponível\" mais rápido a aparecer (cooldown reduzido para 30 min)\r\n• Atualização do Help com as novas funcionalidades de segurança e vento\r\n• Estabilidade geral e correções de build (Expo SDK 55 / Metro / Gradle)",
   "ios": {
     "storeUrl": "https://apps.apple.com/app/id6764019387"
   },
