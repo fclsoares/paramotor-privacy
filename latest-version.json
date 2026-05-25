@@ -1,8 +1,8 @@
 {
   "_help": "Atualize 'latestVersion' a cada release. Para forçar todos a atualizarem (segurança), aumente 'minSupportedVersion' até a versão mínima aceitável.",
-  "latestVersion": "1.1.14",
+  "latestVersion": "1.1.15",
   "minSupportedVersion": "1.0.0",
-  "releaseNotes": "• Correções críticas no cálculo e exibição do vento (alinhamento com o rumo real, rejeição de valores inválidos)\r\n• Melhor detecção da fase de pouso para estatísticas de voo mais precisas\r\n• Bússola e horizonte mais estáveis em manobras\r\n• Importação Gaggle agora calcula distância, duração e consumo de combustível corretamente\r\n• Reimportação em lote de voos do Gaggle com confirmação\r\n• Correção de marcadores e partículas de vento cortados no Android\r\n• Tela cheia respeita a área segura (notch / barra de gestos) no Android\r\n• Mantém a tela ligada de forma mais confiável durante o voo\r\n• Resolução do local de pouso exibida no histórico de voos\r\n• Modal de \"nova versão disponível\" mais rápido a aparecer (cooldown reduzido para 30 min)\r\n• Atualização do Help com as novas funcionalidades de segurança e vento\r\n• Estabilidade geral e correções de build (Expo SDK 55 / Metro / Gradle)",
+  "releaseNotes": "Novidades v1.1.15\r\n\r\n• Tráfego aéreo ao vivo agora vem de 3 fontes (adsb.fi, airplanes.live e OpenSky) e já vem ativado por padrão\r\n• App totalmente em inglês — alterna conforme o idioma do seu iPhone\r\n• Importação de voos no formato IGC e Gaggle (XCTrack, SeeYou e outros)\r\n• Previsão de térmicas com avaliação e teto traduzidos\r\n• Tela de ajuda completa em PT e EN com busca\r\n• Correções de estabilidade e atualização para iOS 16.4+",
   "ios": {
     "storeUrl": "https://apps.apple.com/app/id6764019387"
   },
