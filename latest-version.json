@@ -1,8 +1,8 @@
 {
   "_help": "Atualize 'latestVersion' a cada release. Para forçar todos a atualizarem (segurança), aumente 'minSupportedVersion' até a versão mínima aceitável.",
-  "latestVersion": "1.1.15",
+  "latestVersion": "1.1.17",
   "minSupportedVersion": "1.0.0",
-  "releaseNotes": "Novidades v1.1.15\r\n\r\n• Tráfego aéreo ao vivo agora vem de 3 fontes (adsb.fi, airplanes.live e OpenSky) e já vem ativado por padrão\r\n• App totalmente em inglês — alterna conforme o idioma do seu iPhone\r\n• Importação de voos no formato IGC e Gaggle (XCTrack, SeeYou e outros)\r\n• Previsão de térmicas com avaliação e teto traduzidos\r\n• Tela de ajuda completa em PT e EN com busca\r\n• Correções de estabilidade e atualização para iOS 16.4+",
+  "releaseNotes": "**Novidades desta versão (v1.1.17)**\r\n\r\n• Modal de Ajuda do Mapa agora traduzido para português e inglês, com legendas e suporte a leitor de tela\r\n• Controle de manutenção do motor: novo ajuste manual de horas no equipamento, e o painel mostra automaticamente quantas horas você voou desde a última revisão\r\n• Rodapé do painel principal redesenhado com a marca e ícone do app\r\n• Ajustes internos de estabilidade\r\n\r\n🆕 Mini-HUD no mapa fullscreen — novo widget analógico circular na borda direita mostra velocidade (km/h), combustível (%) e altitude (m) em um só lugar, sem poluir o mapa.\r\n⛽ Relatório de autonomia pós-voo — ao encerrar o voo, um modal mostra litros consumidos, autonomia restante e tempo estimado, facilitando o planejamento do próximo voo.\r\n🎨 Botão INICIAR ajustado no Android — corrigido o corte do rótulo \"INICIAR / PARAR\" em telas Android.\r\n📐 Refinamento visual do HUD — tamanho do relógio analógico otimizado para melhor leitura sem cobrir o mapa.",
   "ios": {
     "storeUrl": "https://apps.apple.com/app/id6764019387"
   },
