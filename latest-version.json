@@ -1,8 +1,8 @@
 {
   "_help": "Atualize 'latestVersion' a cada release. Para forçar todos a atualizarem (segurança), aumente 'minSupportedVersion' até a versão mínima aceitável.",
-  "latestVersion": "1.1.17",
+  "latestVersion": "1.1.18",
   "minSupportedVersion": "1.0.0",
-  "releaseNotes": "**Novidades desta versão (v1.1.17)**\r\n\r\n• Modal de Ajuda do Mapa agora traduzido para português e inglês, com legendas e suporte a leitor de tela\r\n• Controle de manutenção do motor: novo ajuste manual de horas no equipamento, e o painel mostra automaticamente quantas horas você voou desde a última revisão\r\n• Rodapé do painel principal redesenhado com a marca e ícone do app\r\n• Ajustes internos de estabilidade\r\n\r\n🆕 Mini-HUD no mapa fullscreen — novo widget analógico circular na borda direita mostra velocidade (km/h), combustível (%) e altitude (m) em um só lugar, sem poluir o mapa.\r\n⛽ Relatório de autonomia pós-voo — ao encerrar o voo, um modal mostra litros consumidos, autonomia restante e tempo estimado, facilitando o planejamento do próximo voo.\r\n🎨 Botão INICIAR ajustado no Android — corrigido o corte do rótulo \"INICIAR / PARAR\" em telas Android.\r\n📐 Refinamento visual do HUD — tamanho do relógio analógico otimizado para melhor leitura sem cobrir o mapa.",
+  "releaseNotes": "• Tráfego ao vivo integrado com airplanes.live (ativo por padrão)\r\n• Internacionalização completa PT-BR / EN (tour, dashboard, áudio, alertas)\r\n• Orientação retrato travada no Android e renderização de marcadores mais estável\r\n• iOS deployment target 16.4\r\n• Modal de atualização preserva estado durante cooldown\r\n• Correções de dependências do SDK 56 (Metro/Gradle) e ajustes finos no rodapé do dashboard\r\n• Correções críticas de segurança do vento (classificação, banner de confiança, compensação da rotação do mapa)\r\n• Novo relatório de autonomia de combustível + rastreio de consumo no import\r\n• Logbook com importação IGC e Gaggle, incluindo reimportação em massa",
   "ios": {
     "storeUrl": "https://apps.apple.com/app/id6764019387"
   },
