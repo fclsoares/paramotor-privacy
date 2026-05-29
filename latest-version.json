@@ -1,8 +1,8 @@
 {
   "_help": "Atualize 'latestVersion' a cada release. Para forçar todos a atualizarem (segurança), aumente 'minSupportedVersion' até a versão mínima aceitável.",
-  "latestVersion": "1.1.18",
+  "latestVersion": "1.1.20",
   "minSupportedVersion": "1.0.0",
-  "releaseNotes": "• Tráfego ao vivo integrado com airplanes.live (ativo por padrão)\r\n• Internacionalização completa PT-BR / EN (tour, dashboard, áudio, alertas)\r\n• Orientação retrato travada no Android e renderização de marcadores mais estável\r\n• iOS deployment target 16.4\r\n• Modal de atualização preserva estado durante cooldown\r\n• Correções de dependências do SDK 56 (Metro/Gradle) e ajustes finos no rodapé do dashboard\r\n• Correções críticas de segurança do vento (classificação, banner de confiança, compensação da rotação do mapa)\r\n• Novo relatório de autonomia de combustível + rastreio de consumo no import\r\n• Logbook com importação IGC e Gaggle, incluindo reimportação em massa",
+  "releaseNotes": "v1.1.20\r\n🆕 NOVO CRONÔMETRO DE COMPETIÇÃO\r\n\r\n• Gauge circular estilo cockpit com anel animado de 60s, glow pulsante e tipografia tabular\r\n• Posicionado em destaque acima do HOME, em largura total e com botões grandes para luvas\r\n• Registro de voltas (LAP) com melhor tempo, última volta e delta vs. melhor destacados\r\n• HUD em tela cheia (toque longo no Play ou no ícone de expandir) com gauge gigante e lista de voltas\r\n• Cores semânticas por estado: ciano (pronto), verde (rodando), amarelo (pausado), vermelho (parado)\r\n• Feedback háptico diferenciado por ação — confirme sem desviar o olhar\r\n• Independente do tempo total de voo: não interfere no registro automático\r\n\r\nAjuda atualizada (pt-BR e EN) com seção dedicada ao cronômetro.",
   "ios": {
     "storeUrl": "https://apps.apple.com/app/id6764019387"
   },
