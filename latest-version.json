@@ -1,8 +1,8 @@
 {
   "_help": "Atualize 'latestVersion' a cada release. Para forçar todos a atualizarem (segurança), aumente 'minSupportedVersion' até a versão mínima aceitável.",
-  "latestVersion": "1.1.20",
+  "latestVersion": "1.1.21",
   "minSupportedVersion": "1.0.0",
-  "releaseNotes": "v1.1.20\r\n🆕 NOVO CRONÔMETRO DE COMPETIÇÃO\r\n\r\n• Gauge circular estilo cockpit com anel animado de 60s, glow pulsante e tipografia tabular\r\n• Posicionado em destaque acima do HOME, em largura total e com botões grandes para luvas\r\n• Registro de voltas (LAP) com melhor tempo, última volta e delta vs. melhor destacados\r\n• HUD em tela cheia (toque longo no Play ou no ícone de expandir) com gauge gigante e lista de voltas\r\n• Cores semânticas por estado: ciano (pronto), verde (rodando), amarelo (pausado), vermelho (parado)\r\n• Feedback háptico diferenciado por ação — confirme sem desviar o olhar\r\n• Independente do tempo total de voo: não interfere no registro automático\r\n\r\nAjuda atualizada (pt-BR e EN) com seção dedicada ao cronômetro.",
+  "releaseNotes": "**Novidades da versão 1.1.21**\r\n\r\n🛫 Detecção automática de voo — o app inicia e encerra o registro do voo sozinho, com parâmetros ajustáveis.\r\n🗺️ Rotas e waypoints inteligentes — crie missões com múltiplos waypoints, navegação passo a passo, ETA corrigido pelo vento e seleção de pontos direto no mapa.\r\n🔊 Navegação por voz — avisos de curva e chegada ao waypoint, ideal para manter os olhos no horizonte.\r\n🏅 Conquistas — 10 desafios desbloqueáveis com notificações ao atingir cada marco.\r\n📤 Compartilhar rotas — exporte/importe em GPX, via link ou QR Code.\r\n📊 Relatórios de voo mais ricos — métricas por trecho (distância, tempo, velocidade) e estatísticas de altitude (média, ganho, subida/descida).\r\n🎨 Mapa redesenhado — visual de navegação aeronáutica com linhas de rota mais nítidas.\r\n🛩️ Melhorias de altímetro e barra de ações — leitura mais clara e botão central com estado \"armado/cancelar\".\r\n🐛 Correções de estabilidade e qualidade (build iOS, detecção de pouso, importação de voos).",
   "ios": {
     "storeUrl": "https://apps.apple.com/app/id6764019387"
   },
