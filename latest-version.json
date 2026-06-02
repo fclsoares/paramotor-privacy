@@ -1,8 +1,8 @@
 {
   "_help": "Atualize 'latestVersion' a cada release. Para forçar todos a atualizarem (segurança), aumente 'minSupportedVersion' até a versão mínima aceitável.",
-  "latestVersion": "1.1.21",
+  "latestVersion": "1.1.26",
   "minSupportedVersion": "1.0.0",
-  "releaseNotes": "**Novidades da versão 1.1.21**\r\n\r\n🛫 Detecção automática de voo — o app inicia e encerra o registro do voo sozinho, com parâmetros ajustáveis.\r\n🗺️ Rotas e waypoints inteligentes — crie missões com múltiplos waypoints, navegação passo a passo, ETA corrigido pelo vento e seleção de pontos direto no mapa.\r\n🔊 Navegação por voz — avisos de curva e chegada ao waypoint, ideal para manter os olhos no horizonte.\r\n🏅 Conquistas — 10 desafios desbloqueáveis com notificações ao atingir cada marco.\r\n📤 Compartilhar rotas — exporte/importe em GPX, via link ou QR Code.\r\n📊 Relatórios de voo mais ricos — métricas por trecho (distância, tempo, velocidade) e estatísticas de altitude (média, ganho, subida/descida).\r\n🎨 Mapa redesenhado — visual de navegação aeronáutica com linhas de rota mais nítidas.\r\n🛩️ Melhorias de altímetro e barra de ações — leitura mais clara e botão central com estado \"armado/cancelar\".\r\n🐛 Correções de estabilidade e qualidade (build iOS, detecção de pouso, importação de voos).",
+  "releaseNotes": "Novidades desta versão 1.1.26\r\n\r\nAgradecimentos especiais aos amigos pilotos Marcio Aita de Itanhaem/SP e Aluizio de Cabo Frio/RJ, que tem participado ativamente trazendo sugestões de uso extremamente relevantes e novas ideias que estão ajudando a direcionar diversas melhorias e funcionalidades do aplicativo. Sua colaboração tem sido fundamental para a evolução do projeto.\r\n\r\nE tambem a todos os pilotos, testadores e colaboradores que vêm contribuindo continuamente com sugestões, testes e feedbacks para tornar o Paramotor Pilot cada vez melhor. Cada ideia compartilhada e cada ajuste sugerido ajudam a construir uma ferramenta mais completa, segura e útil para toda a comunidade.\r\n\r\nBons voos a todos!",
   "ios": {
     "storeUrl": "https://apps.apple.com/app/id6764019387"
   },
