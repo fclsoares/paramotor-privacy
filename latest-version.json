@@ -1,8 +1,8 @@
 {
   "_help": "Atualize 'latestVersion' a cada release. Para forçar todos a atualizarem (segurança), aumente 'minSupportedVersion' até a versão mínima aceitável.",
-  "latestVersion": "1.1.26",
+  "latestVersion": "1.1.28",
   "minSupportedVersion": "1.0.0",
-  "releaseNotes": "Novidades desta versão 1.1.26\r\n\r\nAgradecimentos especiais aos amigos pilotos Marcio Aita de Itanhaem/SP e Aluizio de Cabo Frio/RJ, que tem participado ativamente trazendo sugestões de uso extremamente relevantes e novas ideias que estão ajudando a direcionar diversas melhorias e funcionalidades do aplicativo. Sua colaboração tem sido fundamental para a evolução do projeto.\r\n\r\nE tambem a todos os pilotos, testadores e colaboradores que vêm contribuindo continuamente com sugestões, testes e feedbacks para tornar o Paramotor Pilot cada vez melhor. Cada ideia compartilhada e cada ajuste sugerido ajudam a construir uma ferramenta mais completa, segura e útil para toda a comunidade.\r\n\r\nBons voos a todos!",
+  "releaseNotes": "Corrigido o campo de ALTURA (AGL) que aparecia em branco em aparelhos Android sem barômetro — agora a altura é calculada pelo GPS em relação à decolagem.\r\nCorrigido o botão Iniciar/Parar que ficava atrás da barra de menu no Android; agora fica à frente, com melhor aparência.",
   "ios": {
     "storeUrl": "https://apps.apple.com/app/id6764019387"
   },
