@@ -1,8 +1,8 @@
 {
   "_help": "Atualize 'latestVersion' a cada release. Para forçar todos a atualizarem (segurança), aumente 'minSupportedVersion' até a versão mínima aceitável.",
-  "latestVersion": "1.1.28",
+  "latestVersion": "1.1.30",
   "minSupportedVersion": "1.0.0",
-  "releaseNotes": "Corrigido o campo de ALTURA (AGL) que aparecia em branco em aparelhos Android sem barômetro — agora a altura é calculada pelo GPS em relação à decolagem.\r\nCorrigido o botão Iniciar/Parar que ficava atrás da barra de menu no Android; agora fica à frente, com melhor aparência.",
+  "releaseNotes": "Versão 1.1.30\r\n\r\n• Velocidade GPS mais precisa: corrigidas leituras falsas no solo (ex.: \">100 km/h\" parado), evitando decolagens e pousos detectados por engano.\r\n• Altitude (AGL) mais estável: fim das variações e quedas para \"0 m\" durante o voo.\r\n• Anúncios de voz com vento relativo: a voz agora informa vento de proa, cauda e través (esquerda/direita), apenas quando o dado é confiável e em tempo real.\r\n• Mapa em tela cheia: indicador de bateria reposicionado para não cobrir as informações de voo.",
   "ios": {
     "storeUrl": "https://apps.apple.com/app/id6764019387"
   },
