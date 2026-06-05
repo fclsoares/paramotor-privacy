@@ -1,8 +1,8 @@
 {
   "_help": "Atualize 'latestVersion' a cada release. Para forçar todos a atualizarem (segurança), aumente 'minSupportedVersion' até a versão mínima aceitável.",
-  "latestVersion": "1.1.30",
+  "latestVersion": "1.1.31",
   "minSupportedVersion": "1.0.0",
-  "releaseNotes": "Versão 1.1.30\r\n\r\n• Velocidade GPS mais precisa: corrigidas leituras falsas no solo (ex.: \">100 km/h\" parado), evitando decolagens e pousos detectados por engano.\r\n• Altitude (AGL) mais estável: fim das variações e quedas para \"0 m\" durante o voo.\r\n• Anúncios de voz com vento relativo: a voz agora informa vento de proa, cauda e través (esquerda/direita), apenas quando o dado é confiável e em tempo real.\r\n• Mapa em tela cheia: indicador de bateria reposicionado para não cobrir as informações de voo.",
+  "releaseNotes": "Novidades da versão 1.1.31\r\n\r\n🌡️ Detecção de térmicas reformulada\r\n• Corrigido o bug que mostrava intensidades impossíveis (ex.: \"Térmica +25 m/s\")\r\n• Nova lógica profissional: ignora picos de GPS e usa a subida típica (não o pico)\r\n• Classificação por força: Fraca, Moderada, Forte, Muito Forte, Excepcional\r\n\r\n📈 Variômetro e altitude mais precisos\r\n• Fusão do barômetro com o GPS — leitura de subida/descida muito mais estável\r\n• Eliminação de picos falsos de altitude e de distância \"teleportada\"\r\n\r\n🔊 Anúncio de voz do Vento Relativo (corrigido)\r\n• Volta a anunciar Proa / Cauda / Través Direita / Través Esquerda\r\n• Disponível em português e inglês, seguindo o idioma do app\r\n• Só anuncia quando o dado é confiável — nunca arrisca uma direção errada\r\n\r\n🛠️ Estabilidade geral e correções",
   "ios": {
     "storeUrl": "https://apps.apple.com/app/id6764019387"
   },
