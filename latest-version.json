@@ -1,8 +1,8 @@
 {
   "_help": "Atualize 'latestVersion' a cada release. Para forçar todos a atualizarem (segurança), aumente 'minSupportedVersion' até a versão mínima aceitável.",
-  "latestVersion": "1.1.8",
+  "latestVersion": "1.2.3",
   "minSupportedVersion": "1.0.0",
-  "releaseNotes": "• Importação de logbook do Gaggle (.xlsx) — traga todos os seus voos antigos de uma vez\r\n• Histórico e Relatórios mostram nome da cidade em vez de coordenadas, atualizado em tempo real\r\n• Cache de importação limpo automaticamente — sem lixo no aparelho\r\n• AJUDA atualizada e melhorias gerais de estabilidade",
+  "releaseNotes": "Chegou a Zephy! ✨\r\n\r\nO Paramotor Pilot agora se chama Zephy. O nome vem de \"Zephyr\" — na mitologia grega, o deus do vento oeste e a brisa suave que anuncia o bom tempo. Nada mais simbólico para quem voa: vento bom, voo bom.\r\n\r\nNovidades desta versão:\r\n\r\n• Nova marca e nova interface — home redesenhada, cartões mais limpos e leitura rápida, com a nova identidade visual Zephy.\r\n• Vento relativo em destaque — proa/cauda e transversal num painel dedicado, fáceis de ler na hora de decolar e pousar.\r\n• Radar meteorológico com camadas — alterne entre vento, rajada, chuva, trovoada e CAPE no mapa e em tela cheia.\r\n• \"Melhor horário para voar\" mais preciso — agora destaca a janela de pico real do dia.\r\n• Quadro de clima reformulado — temperatura, sensação, umidade, visibilidade, pressão e nascer/pôr do sol num layout mais limpo.\r\n\r\nBons voos!",
   "ios": {
     "storeUrl": "https://apps.apple.com/app/id6764019387"
   },
