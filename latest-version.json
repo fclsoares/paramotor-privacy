@@ -1,8 +1,8 @@
 {
   "_help": "Atualize 'latestVersion' a cada release. Para forçar todos a atualizarem (segurança), aumente 'minSupportedVersion' até a versão mínima aceitável.",
-  "latestVersion": "1.2.4",
+  "latestVersion": "1.2.5",
   "minSupportedVersion": "1.0.0",
-  "releaseNotes": "**Novidades da v1.2.4**\r\n\r\n• Voz em tempo real: os anúncios (altitude, velocidade, combustível, autonomia…) agora refletem o instante ATUAL do voo. Acabou o atraso de 5–10 min em voos longos.\r\n• Gravação em segundo plano: o voo continua sendo registrado com a tela apagada ou em outro app — trilha, distância de retorno, autosave e cronômetro seguem ativos.\r\n• Vento Relativo em destaque: os valores de CAUDA e TRAVÉS ganharam realce visual, mais fáceis de ler num relance na decolagem e no pouso.\r\n• Melhorias de estabilidade e desempenho.\r\n\r\nBons voos! ✈️",
+  "releaseNotes": "Novidades desta versão\r\n\r\n• Clima mais rápido e estável: novo cache inteligente para Meteorologia — as previsões carregam na hora, funcionam melhor offline e falham menos.\r\n• Ajuda premium: as telas de Informações Gerais (Piloto, Equipamento, Manutenção e Estatísticas) ganharam um guia visual, com resumo rápido e cartões.\r\n• Melhorias de estabilidade e desempenho.",
   "ios": {
     "storeUrl": "https://apps.apple.com/app/id6764019387"
   },
