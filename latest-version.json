@@ -1,8 +1,8 @@
 {
   "_help": "Atualize 'latestVersion' a cada release. Para forçar todos a atualizarem (segurança), aumente 'minSupportedVersion' até a versão mínima aceitável.",
-  "latestVersion": "1.2.5",
+  "latestVersion": "1.2.6",
   "minSupportedVersion": "1.0.0",
-  "releaseNotes": "Novidades desta versão\r\n\r\n• Clima mais rápido e estável: novo cache inteligente para Meteorologia — as previsões carregam na hora, funcionam melhor offline e falham menos.\r\n• Ajuda premium: as telas de Informações Gerais (Piloto, Equipamento, Manutenção e Estatísticas) ganharam um guia visual, com resumo rápido e cartões.\r\n• Melhorias de estabilidade e desempenho.",
+  "releaseNotes": "Segurança em voo mais inteligente\r\n• O SOS automático não é mais acionado por manobras agressivas, espirais ou perdas rápidas de altitude. O Zephy agora exige a combinação de vários sinais — queda acentuada, ausência prolongada de movimento e falta de recuperação — antes de considerar uma emergência.\r\n\r\nGravação que não para no meio do voo\r\n• Corrigimos a causa de voos encerrados sozinhos antes do pouso. Com GPS impreciso, o app podia interpretar um voo em andamento como \"parado\". Agora, enquanto houver evidência de que você está no ar, a gravação continua.\r\n\r\nVelocidade máxima e distância confiáveis\r\n• Eliminamos os picos irreais causados por oscilações de GPS, que inflavam a velocidade máxima e a distância percorrida. Seus voos antigos são recalculados automaticamente ao abrir o app.\r\n\r\nMelhor horário para voar mais transparente\r\n• A explicação agora aponta o fator que mais limita a janela — vento, nuvens, térmicas ou temperatura — em vez de mostrar apenas os pontos favoráveis.",
   "ios": {
     "storeUrl": "https://apps.apple.com/app/id6764019387"
   },
