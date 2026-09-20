@@ -1,8 +1,8 @@
 {
   "_help": "Atualize 'latestVersion' a cada release. Para forçar todos a atualizarem (segurança), aumente 'minSupportedVersion' até a versão mínima aceitável.",
-  "latestVersion": "1.2.6",
+  "latestVersion": "1.2.8",
   "minSupportedVersion": "1.0.0",
-  "releaseNotes": "Segurança em voo mais inteligente\r\n• O SOS automático não é mais acionado por manobras agressivas, espirais ou perdas rápidas de altitude. O Zephy agora exige a combinação de vários sinais — queda acentuada, ausência prolongada de movimento e falta de recuperação — antes de considerar uma emergência.\r\n\r\nGravação que não para no meio do voo\r\n• Corrigimos a causa de voos encerrados sozinhos antes do pouso. Com GPS impreciso, o app podia interpretar um voo em andamento como \"parado\". Agora, enquanto houver evidência de que você está no ar, a gravação continua.\r\n\r\nVelocidade máxima e distância confiáveis\r\n• Eliminamos os picos irreais causados por oscilações de GPS, que inflavam a velocidade máxima e a distância percorrida. Seus voos antigos são recalculados automaticamente ao abrir o app.\r\n\r\nMelhor horário para voar mais transparente\r\n• A explicação agora aponta o fator que mais limita a janela — vento, nuvens, térmicas ou temperatura — em vez de mostrar apenas os pontos favoráveis.",
+  "releaseNotes": "**O que tem de novidade na versão 1.2.8?**\r\n\r\nSEGURANÇA\r\n• O Zephy agora avisa antes do voo se você não tem contatos de emergência cadastrados — sem eles, o SOS não alerta ninguém.\r\n• O item aparece destacado na lista de itens para configurar.\r\n• A mensagem extra do SOS já vem preenchida com uma sugestão (a sua, se existir, é preservada).\r\n\r\nCORREÇÕES\r\n• Rota Cênica: os pontos turísticos da sua região agora carregam corretamente ao abrir pelo botão.\r\n• Ajuda do SOS revisada.",
   "ios": {
     "storeUrl": "https://apps.apple.com/app/id6764019387"
   },
