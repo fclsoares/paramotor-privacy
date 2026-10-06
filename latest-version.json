@@ -1,8 +1,8 @@
 {
   "_help": "Atualize 'latestVersion' a cada release. Para forçar todos a atualizarem (segurança), aumente 'minSupportedVersion' até a versão mínima aceitável.",
-  "latestVersion": "1.2.14",
+  "latestVersion": "1.2.16",
   "minSupportedVersion": "1.0.0",
-  "releaseNotes": "Novidades da versão 1.2.14\r\n\r\nPrevisão em outras localidades: escolha o país, pesquise uma cidade e consulte os melhores horários para voar no fuso local, sem alterar sua localização atual.\r\nComparação GFS e ECMWF: análise de vento, rajadas e precipitação via Open-Meteo, disponível na tela inicial e nas consultas de outras cidades, com indicação de divergências e dados incompletos.\r\n“Não recomendado” mais claro: veja os motivos e os valores previstos considerados, mesmo quando não houver uma janela favorável.\r\nRanking por proximidade: “Perto de mim” prioriza os destinos mais próximos, com raios de 25 ou 50 km. “Brasil” permite explorar o catálogo nacional.\r\nEdição de contatos SOS: toque em um contato para atualizar nome ou telefone, com opções de salvar ou cancelar.\r\nAjuda atualizada: novos guias sobre previsão, consulta de cidades, Air Tour e contatos de emergência.\r\nAs previsões auxiliam o planejamento e não substituem a avaliação das condições reais no local.",
+  "releaseNotes": "Novidades desta versão 1.2.16\r\n\r\nMelhorias no painel inicial e nas condições diárias de voo.\r\nPrevisões aprimoradas para outras localidades.\r\nMelhor tratamento de erros no login.\r\nCorreções de interface no Android.\r\nInformações do desenvolvedor adicionadas.\r\nMelhorias gerais de estabilidade e usabilidade.",
   "ios": {
     "storeUrl": "https://apps.apple.com/app/id6764019387"
   },
