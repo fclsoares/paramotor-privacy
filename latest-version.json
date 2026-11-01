@@ -1,8 +1,8 @@
 {
   "_help": "Atualize 'latestVersion' a cada release. Para forçar todos a atualizarem (segurança), aumente 'minSupportedVersion' até a versão mínima aceitável.",
-  "latestVersion": "2.0.0",
+  "latestVersion": "2.0.1",
   "minSupportedVersion": "1.0.0",
-  "releaseNotes": "Novidades desta versão 2.0.0\r\n\r\n• Novo cartão Tempo agora no cockpit, com teto estimado, visibilidade, luz disponível e alertas operacionais.\r\n• No AirTour, agora é possível selecionar uma das bases instaladas diretamente no ranking de destinos.\r\n• Novo controle para alternar entre seguir automaticamente a localização e manter uma base selecionada manualmente.\r\n• Melhorias de estabilidade, atualização de dados e experiência de navegação.",
+  "releaseNotes": "O que mudou na versão Zephy 2.0.1:\r\n\r\nAdicionado o atalho “Voar agora” quando a previsão de hoje estiver favorável.\r\nMelhoradas a confiabilidade da velocidade GPS e a detecção de decolagem.\r\nAprimorados os alertas SOS e a consistência dos idiomas.\r\nMelhorias gerais de estabilidade.",
   "ios": {
     "storeUrl": "https://apps.apple.com/app/id6764019387"
   },
